@@ -7,7 +7,7 @@ class Application
     time = Time.new(2015,11,27,9,30)
     if time.hour < 12
       resp.write "Good Morning!"
-    elsif time.hour > 12
+    elsif time.hour => 12
       resp.write "Good Afternoon!"
     end
     resp.finish
