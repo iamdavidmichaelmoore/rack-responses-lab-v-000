@@ -9,7 +9,7 @@ class Application
     if current_time.hour < 12
       resp.write "Good Morning!"
     elsif current_time.hour > 12
-      resp.write " Good Afternoon!"
+      resp.write "Good Afternoon!"
     end
     resp.finish
   end
